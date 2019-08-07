@@ -3,18 +3,18 @@ choco install winmerge
 choco install git -params '"/GitAndUnixToolsOnPath"'
 #  cmder comes with git
 #choco install Cmder  
-choco install hyper
-choco install sourcetree
 
 # webdev
 choco install fiddler4
 choco install filezilla
-choco install nodejs.install 
-choco install prefix
+choco install webdeploy 
 
 # utilities
-choco install  putty 
-choco install skype 
+choco install putty
+choco install mtputty 
+choco install skype
+choco install microsoft-teams 
+choco install telegram 
 choco install f.lux  
 choco install dotPeek
 choco install ilmerge
@@ -23,26 +23,69 @@ choco install paint.net
 #choco install PngGauntlet  #this package required manual entry
 choco install astrogrep
 choco install vagrant
-choco install greenshot
-choco install freemind
-choco install scriptcs
-choco install autohotkey.portable
-choco install zoomit
-choco install licecap
 choco install vlc
 choco install inkscape #SVG editor
+choco install teamviewer
+choco install adobereader
+choco install dropbox
+choco install deepgit
+choco install mremoteng
+choco install dosbox
+choco install scilab 
+choco install soapui 
+choco install viscosity 
+choco install winscp 
+choco install wireshark 
+choco install glogg 
 
-#languages
-choco install elixir
+
+# linux
+choco install wsl-ubuntu-1804 
+
+# db
+choco install postgresql 
+choco install pgadmin4 
+choco install databasenet 
+
+# dev
+choco install dotnet3.5
+choco install dotnet4.0
+choco install dotnet4.5
+choco install dotnet4.5.1
+choco install dotnet4.5.2
+choco install dotnet4.6
+choco install dotnet4.6.1
+choco install dotnet4.6.2
+choco install dotnet4.7
+choco install dotnet4.7.1
+choco install dotnet4.7.2
+choco install netfx-4.5.1-devpack
+choco install netfx-4.5.2-devpack
+choco install netfx-4.6.2-devpack
+choco install netfx-4.7.1-devpack
+choco install netfx-4.7.2-devpack
+choco install dotnetcore-sdk
+choco install nuget.commandline
+choco install dotnetcore-runtime
+choco install dotnetcore-windowshosting
+choco install aspnetcore-runtimepackagestore
+choco install sql-server-management-studio
+choco install 7zip
+choco install openjdk 
+choco install curl
+choco install nmap
+choco install netcat
+choco install openssh
+choco install python
+choco install intellijidea-community
+choco install gradle
 
 # editors
-choco install visualstudio2015community
+choco install visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale en-US"
 #choco install resharper
 #choco install WebStorm
 choco install pycharm-community
 choco install notepadplusplus
-choco install atom
-choco install visualstudiocode
 
 # browsers
 choco install google-chrome-x64
@@ -50,9 +93,3 @@ choco install Firefox
 
 Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
-
-# other not on chocolately
-# http://azurestorageexplorer.codeplex.com/
-# icons - https://www.syncfusion.com/downloads/metrostudio
-# view andriod - http://www.vysor.io/
-# OWASP ZAP https://github.com/zaproxy/zaproxy/wiki/Downloads
